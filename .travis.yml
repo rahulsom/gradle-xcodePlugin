@@ -1,0 +1,12 @@
+sudo: false
+
+language: groovy
+
+cache:
+  directories:
+  - $HOME/.m2
+  - $HOME/.gradle/caches
+
+script:
+  - "cd plugin"
+  - "gradle check"
