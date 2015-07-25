@@ -8,5 +8,5 @@ cache:
   - $HOME/.gradle/caches
 
 script:
-  - "cd plugin"
-  - "gradle check"
+  - cd plugin
+  - gradle check
